@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "312090979749",
+    "project_id": "delibery-app-gt",
+    "storage_bucket": "delibery-app-gt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312090979749:android:80ec7d08c3773ff2678c4c",
+        "android_client_info": {
+          "package_name": "com.gerson.gonzalez.gb.ventas_gb_delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312090979749-6c8ga7f12emkb4nb73ect1ornp2hojnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gerson.gonzalez.gb.ventas_gb_delivery",
+            "certificate_hash": "b3a6e9f183bed6ab0671723b42edb34bc78a2bcc"
+          }
+        },
+        {
+          "client_id": "312090979749-bv19206o3m91cb3c0puilebq5b37abul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSEppbnLylJtraxjvnH3doYTolTJVmMPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312090979749-bv19206o3m91cb3c0puilebq5b37abul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
