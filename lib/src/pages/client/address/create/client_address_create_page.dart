@@ -77,6 +77,9 @@ class _ClientAddressCreatePageState extends State<ClientAddressCreatePage> {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
       child: TextField(
+        onTap: _con.openMap,
+        autofocus: false,
+        focusNode: AlwaysDisableFocusNode(),
         decoration: InputDecoration(
             labelText: 'Punto de referencia',
             suffixIcon: Icon(
@@ -128,3 +131,27 @@ class _ClientAddressCreatePageState extends State<ClientAddressCreatePage> {
     });
   }
 }
+
+
+class AlwaysDisableFocusNode extends FocusNode{
+  @override
+  bool get hasFocus => false;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
